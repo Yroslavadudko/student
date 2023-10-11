@@ -44,7 +44,9 @@ public class Student {
         student1.logStudentInfo();
 
         student1.setFirstName("Nataly");
-        student1.setLastName("Dudka");
         student1.logStudentInfo();
+
+        Student student2 = new Student(2, "Yaroslava", "Dudko");
+        student2.logStudentInfo();
     }
 }
