@@ -1,5 +1,6 @@
 package org.example;
 
+
 import java.util.logging.Logger;
 
 public class Student {
@@ -37,16 +38,5 @@ public class Student {
     public void logStudentInfo() {
         String logMessage = String.format("Student ID: %d, Name: %s %s", studentId, firstName, lastName);
         logger.info(logMessage);
-    }
-
-    public static void main(String[] args) {
-        Student student1 = new Student(1, "Mykola", "Dudko");
-        student1.logStudentInfo();
-
-        student1.setFirstName("Nataly");
-        student1.logStudentInfo();
-
-        Student student2 = new Student(2, "Yaroslava", "Dudko");
-        student2.logStudentInfo();
     }
 }
