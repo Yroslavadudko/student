@@ -29,7 +29,7 @@ public class Main {
 
         group.removeStudent(student6); // delete a student
 
-        group.renameStudent(student1, "Natali", "Dudko"); //Rename the student
+        group.renameStudent(student1, "Natali", "Dudko"); //rename the student
 
         group.displayGroupInfo();
     }
