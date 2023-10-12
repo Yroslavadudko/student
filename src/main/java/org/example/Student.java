@@ -1,5 +1,6 @@
 package org.example;
 
+import java.text.MessageFormat;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.logging.Logger;
@@ -19,7 +20,6 @@ public class Student {
     public int getStudentId() {
         return studentId;
     }
-
     public String getFirstName() {
         return firstName;
     }
@@ -86,7 +86,7 @@ class Group {
     }
     public void markTaskAsCompLeader(Student student, String task) {
         if (studentList.contains(student)){
-            logger.info("Student " + student.getFirstName() + " marked task '" + task + "' as comleted.");
+            logger.info("Student: " + student.getFirstName() + " marked task '" + task + "' as comleted.");
         }else {
             logger.warning("Student must be a member of the group to mark a task as completed.");
         }

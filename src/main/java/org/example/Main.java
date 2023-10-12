@@ -2,15 +2,15 @@ package org.example;
 
 public class Main {
     public static void main(String[] args) {
-        Student leader = new Student( 1, "Mykola", "Dudko");
+        Student leader = new Student( 111023, "Mykola", "Dudko");
         Group group = new Group(leader);
 
-        Student student1 = new Student(2, "Nataly", "Dudka");
-        Student student2 = new Student(3, "Yaroslava", "Dudko");
-        Student student3 = new Student(4, "Valery", "Dudko");
-        Student student4 = new Student(5, "Harucka", "Dudko");
-        Student student5 = new Student(6, "Looloo", "Dudko");
-        Student student6 = new Student(7, "Sergiy", "Sherbina");
+        Student student1 = new Student(101023, "Nataly", "Sherbina");
+        Student student2 = new Student(131023, "Yaroslava", "Dudko");
+        Student student3 = new Student(121023, "Valery", "Dudko");
+        Student student4 = new Student(151023, "Haruka", "Dudko");
+        Student student5 = new Student(161023, "Loo loo", "Dudko");
+        Student student6 = new Student(171023, "Sergiy", "Sherbina");
 
         group.addStudent(student1);
         group.addStudent(student2);
@@ -29,7 +29,7 @@ public class Main {
 
         group.removeStudent(student6); // delete a student
 
-        group.renameStudent(student1, "Nataliy", "Dudko-Sherbina"); //Rename the student
+        group.renameStudent(student1, "Natali", "Dudko"); //Rename the student
 
         group.displayGroupInfo();
     }
