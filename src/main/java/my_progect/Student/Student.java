@@ -1,4 +1,4 @@
-package org.example;
+package my_progect.Student;
 
 import java.util.ArrayList;
 import java.util.List;
