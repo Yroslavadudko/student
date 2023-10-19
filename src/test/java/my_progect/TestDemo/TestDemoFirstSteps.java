@@ -1,4 +1,4 @@
-package lesson_2.mykola_dudko;
+package my_progect.TestDemo;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;

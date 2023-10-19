@@ -1,4 +1,4 @@
-package lessons.lesson_15.home_work.mykola_dudko;
+package my_progect.Person;
 import java.util.logging.Logger;
 
 public class Main {

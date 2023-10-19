@@ -1,8 +1,5 @@
 package my_progect.Student;
 
-import my_progect.Student.Group;
-import my_progect.Student.Student;
-
 public class Main {
     public static void main(String[] args) {
         Student leader = new Student( 111023, "Mykola", "Dudko");

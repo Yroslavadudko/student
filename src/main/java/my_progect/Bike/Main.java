@@ -1,9 +1,9 @@
-package lessons.lesson_5.home_work.mykola_dudko;
+package my_progect.Bike;
 public class Main {
     public static void main(String[] args) {
-        Bicycle raceBicycle = new Bicycle("BMC", "full-Carbon", "front suspension", "Cross-Country", 12, 29, "Pirelli", "Sram-Level");
-        Bicycle driveBicycle = new Bicycle("Santa Cruz", "full-Carbon", "double suspension", "Down-Country", 12, 29, "Vittoria", "Sram-Level");
-        Bicycle childrenBicycle = new Bicycle("Pride", "Aluminum", "non suspension", "walking", 1, 20, "Hooka", "V-Brakes");
+        lessons.lesson_5.home_work.mykola_dudko.Bicycle raceBicycle = new lessons.lesson_5.home_work.mykola_dudko.Bicycle("BMC", "full-Carbon", "front suspension", "Cross-Country", 12, 29, "Pirelli", "Sram-Level");
+        lessons.lesson_5.home_work.mykola_dudko.Bicycle driveBicycle = new lessons.lesson_5.home_work.mykola_dudko.Bicycle("Santa Cruz", "full-Carbon", "double suspension", "Down-Country", 12, 29, "Vittoria", "Sram-Level");
+        lessons.lesson_5.home_work.mykola_dudko.Bicycle childrenBicycle = new lessons.lesson_5.home_work.mykola_dudko.Bicycle("Pride", "Aluminum", "non suspension", "walking", 1, 20, "Hooka", "V-Brakes");
 
         // Print Bicycle info
         System.out.println("\nBMC");
@@ -74,7 +74,7 @@ public class Main {
     }
 
     // Method for outputting the description of the story
-    private static void printBikeInfo(Bicycle bike) {
+    private static void printBikeInfo(lessons.lesson_5.home_work.mykola_dudko.Bicycle bike) {
       String output = String.format(
                 "Brand: %s\nFrame: %s\nSuspension: %s\nRace Type: %s\nGear Box: %d\nWheel Size: %d\nTires: %s\nBrakes: %s",
                 bike.getBrand(), bike.getFrame(), bike.getSuspension(), bike.getRaceType(), bike.getGearBox(), bike.getWheelSize(), bike.getTires(), bike.getBrakes()

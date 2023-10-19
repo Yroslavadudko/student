@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e38efd68-bee3-405e-bc89-73e14b261d3d" name="Changes" comment="hw_14. ID rename">
+    <list default="true" id="e38efd68-bee3-405e-bc89-73e14b261d3d" name="Changes" comment="hw">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/my_progect/Bike/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/my_progect/Bike/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/my_progect/Student/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/my_progect/Student/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,26 +56,13 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.my_progect.SolarSystemPlanet.Main">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.Main" />
-      <module name="Student" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SolarSystemPlanet.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SolarSystemPlanet.Main" />
+      <option name="MAIN_CLASS_NAME" value="my_progect.Person.Main" />
       <module name="FirstSimpleStep" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="SolarSystemPlanet.*" />
+          <option name="PATTERN" value="my_progect.Person.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -81,12 +70,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Student" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.Student" />
-      <module name="Student" />
+    <configuration name="lessons.lesson_5.home_work.mykola_dudko.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lessons.lesson_5.home_work.mykola_dudko.Main" />
+      <module name="FirstSimpleStep" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.*" />
+          <option name="PATTERN" value="lessons.lesson_5.home_work.mykola_dudko.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="my_progect.Bike.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="my_progect.Bike.Main" />
+      <module name="FirstSimpleStep" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="my_progect.Bike.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -122,11 +124,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.my_progect.SolarSystemPlanet.Main" />
-        <item itemvalue="Application.my_progect.Student.Main" />
-        <item itemvalue="Application.SolarSystemPlanet.Main" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.Student" />
+        <item itemvalue="Application.my_progect.Bike.Main" />
+        <item itemvalue="Application.lessons.lesson_5.home_work.mykola_dudko.Main" />
+        <item itemvalue="Application.my_progect.Student.Main" />
+        <item itemvalue="Application.my_progect.SolarSystemPlanet.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -203,7 +205,15 @@
       <option name="project" value="LOCAL" />
       <updated>1697471645688</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="hw">
+      <option name="closed" value="true" />
+      <created>1697721011016</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1697721011016</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -211,6 +221,7 @@
     <MESSAGE value="hw_14. final" />
     <MESSAGE value="hw_14. ID" />
     <MESSAGE value="hw_14. ID rename" />
-    <option name="LAST_COMMIT_MESSAGE" value="hw_14. ID rename" />
+    <MESSAGE value="hw" />
+    <option name="LAST_COMMIT_MESSAGE" value="hw" />
   </component>
 </project>
